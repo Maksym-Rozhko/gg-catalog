@@ -1,0 +1,165 @@
+.card-group {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 24px 1fr 24px 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 56px;
+}
+
+.card {
+    background: #FFFFFF;
+    border: 1px solid #EFF1F1 !important;
+    border-radius: 4px;
+    padding: 24px;
+    -webkit-transition: all ease-in-out .4s;
+    -o-transition: all ease-in-out .4s;
+    transition: all ease-in-out .4s;
+}
+
+.card__image {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.card-img-top {
+    max-width: 207px;
+    -webkit-transition: all ease-in-out .4s;
+    -o-transition: all ease-in-out .4s;
+    transition: all ease-in-out .4s;
+}
+
+.card__favorite,
+.card__label {
+    position: absolute;
+}
+
+.card__favorite {
+    border: none;
+    background: transparent;
+    top: 0;
+    right: 0;
+}
+
+.card__favorite svg {
+    color: #2D3132;
+    -webkit-transition: color ease-in-out .4s;
+    -o-transition: color ease-in-out .4s;
+    transition: color ease-in-out .4s;
+}
+
+.card__favorite:hover svg {
+    color: red;
+}
+
+.card__label {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    color: #00382F;
+    border-radius: 4px;
+    padding: 4px 8px;
+    left: 0;
+}
+
+.card__label--top {
+    background: #B4FFF0;
+    bottom: 0;
+}
+
+.card__label--organic {
+    background: #E0E3E3;
+    top: 0;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-text {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 150%;
+    margin-bottom: 0;
+}
+
+.card-text .text-muted {
+    color: #5C5F60 !important;
+}
+
+.card-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2D3132;
+    margin-top: 4px;
+    margin-bottom: 24px;
+    display: block;
+}
+
+.card__info-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.card__info-right {
+    text-align: right;
+}
+
+.old-price,
+.city {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.old-price {
+    -webkit-text-decoration-line: line-through;
+    text-decoration-line: line-through;
+    color: #747778;
+}
+
+.city {
+    color: #2D3132;
+}
+
+.curr-price,
+.brand__name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2D3132;
+}
+
+.card:hover {
+    border: 1px solid #00382F !important;
+}
+
+.card:hover .card-img-top {
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+}
+
+@media (max-width: 992px) {
+    .card-group {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .card-group {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}

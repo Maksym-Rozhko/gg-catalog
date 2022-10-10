@@ -1,0 +1,18 @@
+.breadcrumb .breadcrumb-item {
+    display: inherit;
+}
+
+.breadcrumb .breadcrumb-item,
+.breadcrumb .breadcrumb-item a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.breadcrumb .breadcrumb-item {
+    color: #747778;
+}
+
+.breadcrumb .breadcrumb-item a {
+    color: #2D3132;
+}

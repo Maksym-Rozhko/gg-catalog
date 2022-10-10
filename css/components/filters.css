@@ -1,0 +1,74 @@
+.filters {
+    min-width: 170px;
+}
+
+.filters__title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #5C5F60;
+    margin-bottom: 0;
+}
+
+.filters .accordion-button {
+    background: #EFF1F1;
+    padding: 16px 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #444748;
+}
+
+.filters .accordion-button::after {
+    background-image: url('../../images/icons/arrow.svg');
+}
+
+.filters .form-check {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.filters .form-check-input:checked {
+    background-color: #2D3132;
+    border-color: #2D3132;
+}
+
+.filters .form-check-label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #444748;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.filters .form-check-amount {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #747778;
+}
+
+.filters .form-check-input {
+    border: 1px solid #C4C7C7;
+}
+
+@media (max-width: 992px) {
+    .filters .accordion-button {
+        padding: 8px 12px;
+    }
+    .accordion-body {
+        padding: 8px 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .filters {
+        margin-bottom: 50px;
+    }
+}

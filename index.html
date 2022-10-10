@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>monvalise - Брендовий одяг</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__top-info">
+            <div class="icons-group">
+                <div class="rot-30">👍</div>
+                <img class="img" src="images/dress.svg" alt="image: blue dress">
+            </div>
+            <p class="text">
+                Брендовий верхній одяг від&nbsp;899&nbsp;грн
+            </p>
+        </div>
+        <div class="header__container">
+            <div class="container">
+                <div class="header__main">
+                    <div class="row align-items-center">
+                        <div class="col-xxl-2 col-lg-2 col-md-2 col-12 order-xxl-0 order-lg-0 order-md-0 order-first">
+                            <div class="header__logo logo">
+                                <img src="images/logo.svg" alt="logo: monvalise">
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-lg-4 col-md-3 col-12 order-xxl-0 order-lg-0 order-md-0 order-first">
+                            <form action="#" class="header__form">
+                                <div class="input-group">
+                                    <button type="submit" class="input-group-text" id="basic-addon1">
+                                        <svg width="20" height="20" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.8481 15.0265C12.565 16.0529 10.9375 16.6666 9.16666 16.6666C5.02453 16.6666 1.66666 13.3088 1.66666 9.16663C1.66666 5.02449 5.02453 1.66663 9.16666 1.66663C13.3088 1.66663 16.6667 5.02449 16.6667 9.16663C16.6667 10.9375 16.0529 12.565 15.0266 13.848L18.0893 16.9107L16.9108 18.0892L13.8481 15.0265ZM15 9.16663C15 12.3883 12.3883 15 9.16666 15C5.945 15 3.33333 12.3883 3.33333 9.16663C3.33333 5.94497 5.945 3.33329 9.16666 3.33329C12.3883 3.33329 15 5.94497 15 9.16663Z" fill="currentColor"/>
+                                        </svg>                                        
+                                    </button>
+                                    <input type="text" class="form-control" placeholder="Знайти речі або бренди" aria-label="Знайти речі або бренди" aria-describedby="basic-addon1">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-5 flex-all-between">
+                            <button type="button" class="btn btn-dark header__btn">
+                                Додати товар
+                            </button>
+                            <select class="form-select header__select-language" aria-label="Default select example">
+                                <option selected>Укр</option>
+                                <option value="2">Eng</option>
+                              </select>
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-3 col-7 flex-all-between">
+                            <div class="header__buttons-group flex-v-center">
+                                <button type="button" class="btn btn-danger position-relative favorites flex-all-center ">
+                                    <svg width="24" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2426 4.75736C14.5858 2.41421 18.3848 2.41421 20.7279 4.75736C23.0711 7.10051 23.0711 10.8995 20.7279 13.2426L12.2426 21.728L3.75736 13.2427C1.41421 10.8995 1.41421 7.10054 3.75736 4.75739C6.1005 2.41426 9.89947 2.41424 12.2426 4.75736ZM19.3137 6.17158C17.7516 4.60948 15.2189 4.60947 13.6568 6.17157L12.2426 7.58579L10.8284 6.17161C9.26633 4.60951 6.73367 4.60951 5.17157 6.17161C3.60948 7.7337 3.60948 10.2664 5.17157 11.8285L12.2426 18.8995L19.3137 11.8284C20.8758 10.2663 20.8758 7.73367 19.3137 6.17158Z" fill="currentColor"/>
+                                    </svg>                                        
+                                    <span class="position-absolute translate-middle badge rounded-pill bg-light">
+                                      8
+                                      <span class="visually-hidden">viewed messages</span>
+                                    </span>
+                                </button>
+                                <button type="button" class="btn btn-warning position-relative notifications flex-all-center ">
+                                    <svg width="24" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 9C17 9.55228 16.5523 10 16 10H8C7.44772 10 7 9.55228 7 9C7 8.44772 7.44772 8 8 8H16C16.5523 8 17 8.44772 17 9Z" fill="currentColor"/>
+                                        <path d="M7 13C7 13.5523 7.44772 14 8 14H16C16.5523 14 17 13.5523 17 13C17 12.4477 16.5523 12 16 12H8C7.44772 12 7 12.4477 7 13Z" fill="currentColor"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6 3C3.79086 3 2 4.79086 2 7V19C2 20.8811 3.93624 22.1395 5.65525 21.3754L10.2243 19.3448C10.7357 19.1174 11.2892 19 11.8489 19H18C20.2091 19 22 17.2091 22 15V7C22 4.79086 20.2091 3 18 3H6ZM18 5H6C4.89543 5 4 5.89543 4 7V19C4 19.4338 4.44653 19.724 4.84297 19.5478L9.41203 17.5171C10.1792 17.1762 11.0093 17 11.8489 17H18C19.1046 17 20 16.1046 20 15V7C20 5.89543 19.1046 5 18 5Z" fill="currentColor"/>
+                                    </svg>                                                                           
+                                    <span class="position-absolute translate-middle badge rounded-pill bg-danger">
+                                      3
+                                      <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </button>
+                                <button type="button" class="btn btn-success position-relative cart flex-all-center ">
+                                    <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.79797 4H2V2H6.44013L7.07398 5.19462C7.16705 5.6625 7.57777 6 8.05486 6H18.114C20.2086 6 21.6585 8.09212 20.923 10.0534L19.423 14.0534C18.9839 15.2243 17.8645 16 16.614 16H11.2843C8.89805 16 6.84434 14.3137 6.37993 11.9731L4.79797 4ZM7.62449 7.96918L8.34169 11.5839C8.62034 12.9882 9.85256 14 11.2843 14H16.614C17.0308 14 17.404 13.7414 17.5503 13.3511L19.0503 9.35112C19.2955 8.69737 18.8122 8 18.114 8H8.05486C7.90907 8 7.76535 7.98951 7.62449 7.96918Z" fill="currentColor"/>
+                                        <path d="M10 19.5C10 20.3284 9.32843 21 8.5 21C7.67157 21 7 20.3284 7 19.5C7 18.6716 7.67157 18 8.5 18C9.32843 18 10 18.6716 10 19.5Z" fill="currentColor"/>
+                                        <path d="M17.5 21C18.3284 21 19 20.3284 19 19.5C19 18.6716 18.3284 18 17.5 18C16.6716 18 16 18.6716 16 19.5C16 20.3284 16.6716 21 17.5 21Z" fill="currentColor"/>
+                                    </svg>                                                                           
+                                    <span class="position-absolute translate-middle badge rounded-pill bg-light">
+                                      3
+                                      <span class="visually-hidden">viewed messages</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="dropdown profile">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="images/avatar.png" alt="profile user avatar">
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="header__nav nav">
+                <div class="container">
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </button>
+                        <ul class="dropdown-menu nav__list flex-v-center">
+                            <li class="nav__list-item dropdown-item">
+                                <a href="#" class="nav__list-link">
+                                    Головна
+                                </a>
+                            </li>
+                            <li class="nav__list-item dropdown-item">
+                                <a href="#" class="nav__list-link">
+                                    Каталог
+                                </a>
+                            </li>
+                            <li class="nav__list-item dropdown-item">
+                                <a href="#" class="nav__list-link">
+                                    Жінкам
+                                </a>
+                            </li>
+                            <li class="nav__list-item dropdown-item">
+                                <a href="#" class="nav__list-link">
+                                    Чоловікам
+                                </a>
+                            </li>
+                            <li class="nav__list-item dropdown-item">
+                                <a href="#" class="nav__list-link">
+                                    Дитячi речі
+                                </a>
+                            </li>
+                            <li class="nav__list-item dropdown-item">
+                                <a href="#" class="nav__list-link">
+                                    Аукціон
+                                </a>
+                            </li>
+                            <li class="nav__list-item dropdown-item">
+                                <a href="#" class="nav__list-link">
+                                    Бренди
+                                </a>
+                            </li>
+                            <li class="nav__list-item dropdown-item">
+                                <a href="#" class="nav__list-link">
+                                    Акції
+                                </a>
+                            </li>
+                            <li class="nav__list-item dropdown-item">
+                                <a href="#" class="nav__list-link">
+                                    Аутентифікація
+                                </a>
+                            </li>
+                            <li class="nav__list-item dropdown-item">
+                                <a href="#" class="nav__list-link">
+                                    Блог
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="nav__list flex-v-center flex-wrap">
+                        <li class="nav__list-item">
+                            <a href="#" class="nav__list-link">
+                                Головна
+                            </a>
+                        </li>
+                        <li class="nav__list-item active">
+                            <a href="#" class="nav__list-link">
+                                Каталог
+                            </a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="#" class="nav__list-link">
+                                Жінкам
+                            </a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="#" class="nav__list-link">
+                                Чоловікам
+                            </a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="#" class="nav__list-link">
+                                Дитячi речі
+                            </a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="#" class="nav__list-link">
+                                Аукціон
+                            </a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="#" class="nav__list-link">
+                                Бренди
+                            </a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="#" class="nav__list-link">
+                                Акції
+                            </a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="#" class="nav__list-link">
+                                Аутентифікація
+                            </a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="#" class="nav__list-link">
+                                Блог
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Головна</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Каталог одягу</li>
+            </ol>
+        </nav>
+    </div>
+    <main class="main">
+        <section class="catalog">
+            <div class="container">
+                <h1 class="title">
+                    Каталог одягу
+                </h1>
+                <div class="row">
+                    <div class="col-xxl-3 col-lg-3 col-md-4 col-sm-5 col-12">
+                        <div class="filters">
+                            <h2 class="filters__title  mb-4">
+                                Фільтри
+                            </h2>
+                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                            Категорії
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                                        <div class="accordion-body">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked1" checked>
+                                                <label class="form-check-label" for="flexCheckChecked1">
+                                                    Чоловікам
+                                                </label>
+                                                <span class="form-check-amount">(64)</span>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2" checked>
+                                                <label class="form-check-label" for="flexCheckChecked2">
+                                                    Чоловікам
+                                                </label>
+                                                <span class="form-check-amount">(16)</span>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked3">
+                                                <label class="form-check-label" for="flexCheckChecked3">
+                                                    Унісекс
+                                                </label>
+                                                <span class="form-check-amount">(24)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                            Ціна
+                                    </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                        <div class="accordion-body"></div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                            Продавець
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body"></div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                            Бренд
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                                        <div class="accordion-body"></div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true" aria-controls="panelsStayOpen-collapseFive">
+                                            Стать
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFive">
+                                        <div class="accordion-body">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked4" checked>
+                                                <label class="form-check-label" for="flexCheckChecked4">
+                                                    Чоловікам
+                                                </label>
+                                                <span class="form-check-amount">(64)</span>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked5" checked>
+                                                <label class="form-check-label" for="flexCheckChecked5">
+                                                    Чоловікам
+                                                </label>
+                                                <span class="form-check-amount">(16)</span>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked6">
+                                                <label class="form-check-label" for="flexCheckChecked6">
+                                                    Унісекс
+                                                </label>
+                                                <span class="form-check-amount">(24)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                                                Розмір
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                                            <div class="accordion-body"></div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                                                Колір
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
+                                            <div class="accordion-body"></div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
+                                                Матеріал
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
+                                            <div class="accordion-body"></div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingNine">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false" aria-controls="panelsStayOpen-collapseNine">
+                                                Сезон
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingNine">
+                                            <div class="accordion-body"></div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingTen">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="false" aria-controls="panelsStayOpen-collapseTen">
+                                                Стиль
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTen">
+                                            <div class="accordion-body"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-9 col-lg-9 col-md-8 col-sm-7 col-12">
+                        <div class="sortings flex-v-center mb-4">
+                            <span class="sortings__label">
+                                Сортувати за:
+                            </span>
+                            <select class="form-select" aria-label="Оберiть спосiб">
+                                <option selected>Оберiть спосiб</option>
+                                <option value="1">За замовчуванням</option>
+                                <option value="3">За рейтингом</option>
+                                <option value="2">За цiною</option>
+                            </select>
+                        </div>
+                        <div class="card-group">
+                            <div class="card">
+                                <div class="card__image flex-all-center">
+                                    <img src="images/cards/card-1.png" class="card-img-top" alt="Темно-сині джинси Louis Vuitton">
+                                    <button type="button" class="card__favorite">
+                                        <svg width="20" height="20" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.53735 5.19604L9.46969 5.26371C7.70072 3.49473 4.83264 3.49473 3.06367 5.2637C1.2947 7.03268 1.29469 9.90075 3.06367 11.6697L6.79699 15.403C8.56597 17.172 11.434 17.172 13.203 15.403L16.9364 11.6697C18.7053 9.90073 18.7053 7.03266 16.9364 5.26368C15.1674 3.49471 12.2993 3.49471 10.5303 5.26368L10.0677 5.72635L9.53735 5.19604ZM14.2637 16.4637L17.997 12.7304C20.3518 10.3756 20.3518 6.55778 17.997 4.20302C15.8118 2.01781 12.3667 1.86047 10 3.73099C7.63335 1.86049 4.18821 2.01785 2.00301 4.20304C-0.35175 6.5578 -0.351753 10.3756 2.00301 12.7304L5.73633 16.4637L5.73635 16.4637C8.09111 18.8185 11.9089 18.8185 14.2637 16.4637L14.2637 16.4637Z" fill="currentColor"/>
+                                        </svg>                                            
+                                    </button>
+                                    <span class="card__label card__label--top">
+                                        ТОП
+                                    </span>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"><small class="text-muted">LOUIS VUITTON</small></p>
+                                    <a href="#" class="card-title">Темно-сині джинси Louis Vuitton</a>
+                                    <div class="card__info flex-all-between">
+                                        <div class="card__info-left">
+                                            <span class="old-price">5 499</span>
+                                            <span class="curr-price">3 799</span>
+                                        </div>
+                                        <div class="card__info-right">
+                                            <div class="location">
+                                                <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.03019 1.77684C1.56287 3.18058 1.38709 5.39908 2.61646 6.99837L6 11.4L9.38354 6.99837C10.6129 5.39908 10.4371 3.18058 8.96982 1.77684C7.32963 0.207728 4.67037 0.207728 3.03019 1.77684ZM6 6.60001C6.99412 6.60001 7.8 5.79412 7.8 4.80001C7.8 3.80589 6.99412 3.00001 6 3.00001C5.00589 3.00001 4.2 3.80589 4.2 4.80001C4.2 5.79412 5.00589 6.60001 6 6.60001Z" fill="#2D3132"/>
+                                                </svg>
+                                                <span class="city">Херсон</span>                                                    
+                                            </div>
+                                            <div class="brand">
+                                                <img src="images/avatars/ava-1.png" alt="LoveBrand">
+                                                <span class="brand__name">LoveBrand</span>                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__image flex-all-center">
+                                    <img src="images/cards/card-2.png" class="card-img-top" alt="Чорний піджак Thom Browne">
+                                    <button type="button" class="card__favorite">
+                                        <svg width="20" height="20" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.53735 5.19604L9.46969 5.26371C7.70072 3.49473 4.83264 3.49473 3.06367 5.2637C1.2947 7.03268 1.29469 9.90075 3.06367 11.6697L6.79699 15.403C8.56597 17.172 11.434 17.172 13.203 15.403L16.9364 11.6697C18.7053 9.90073 18.7053 7.03266 16.9364 5.26368C15.1674 3.49471 12.2993 3.49471 10.5303 5.26368L10.0677 5.72635L9.53735 5.19604ZM14.2637 16.4637L17.997 12.7304C20.3518 10.3756 20.3518 6.55778 17.997 4.20302C15.8118 2.01781 12.3667 1.86047 10 3.73099C7.63335 1.86049 4.18821 2.01785 2.00301 4.20304C-0.35175 6.5578 -0.351753 10.3756 2.00301 12.7304L5.73633 16.4637L5.73635 16.4637C8.09111 18.8185 11.9089 18.8185 14.2637 16.4637L14.2637 16.4637Z" fill="currentColor"/>
+                                        </svg>                                            
+                                    </button>
+                                    <span class="card__label card__label--top">
+                                        ТОП
+                                    </span>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"><small class="text-muted">THOM BROWNE</small></p>
+                                    <a href="#" class="card-title">Чорний піджак Thom Browne</a>
+                                    <div class="card__info flex-all-between">
+                                        <div class="card__info-left">
+                                            <span class="old-price">11 999</span>
+                                            <span class="curr-price">8 599</span>
+                                        </div>
+                                        <div class="card__info-right">
+                                            <div class="location">
+                                                <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.03019 1.77684C1.56287 3.18058 1.38709 5.39908 2.61646 6.99837L6 11.4L9.38354 6.99837C10.6129 5.39908 10.4371 3.18058 8.96982 1.77684C7.32963 0.207728 4.67037 0.207728 3.03019 1.77684ZM6 6.60001C6.99412 6.60001 7.8 5.79412 7.8 4.80001C7.8 3.80589 6.99412 3.00001 6 3.00001C5.00589 3.00001 4.2 3.80589 4.2 4.80001C4.2 5.79412 5.00589 6.60001 6 6.60001Z" fill="#2D3132"/>
+                                                </svg>
+                                                <span class="city">Хмельницький</span>                                                    
+                                            </div>
+                                            <div class="brand">
+                                                <img src="images/avatars/ava-2.png" alt="Sell_For_Men">
+                                                <span class="brand__name">Sell_For_Men</span>                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__image flex-all-center">
+                                    <img src="images/cards/card-3.png" class="card-img-top" alt="Вовняний піджак Canali">
+                                    <button type="button" class="card__favorite">
+                                        <svg width="20" height="20" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.53735 5.19604L9.46969 5.26371C7.70072 3.49473 4.83264 3.49473 3.06367 5.2637C1.2947 7.03268 1.29469 9.90075 3.06367 11.6697L6.79699 15.403C8.56597 17.172 11.434 17.172 13.203 15.403L16.9364 11.6697C18.7053 9.90073 18.7053 7.03266 16.9364 5.26368C15.1674 3.49471 12.2993 3.49471 10.5303 5.26368L10.0677 5.72635L9.53735 5.19604ZM14.2637 16.4637L17.997 12.7304C20.3518 10.3756 20.3518 6.55778 17.997 4.20302C15.8118 2.01781 12.3667 1.86047 10 3.73099C7.63335 1.86049 4.18821 2.01785 2.00301 4.20304C-0.35175 6.5578 -0.351753 10.3756 2.00301 12.7304L5.73633 16.4637L5.73635 16.4637C8.09111 18.8185 11.9089 18.8185 14.2637 16.4637L14.2637 16.4637Z" fill="currentColor"/>
+                                        </svg>                                            
+                                    </button>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"><small class="text-muted">CANALI</small></p>
+                                    <a href="#" class="card-title">Вовняний піджак Canali</a>
+                                    <div class="card__info flex-all-between">
+                                        <div class="card__info-left">
+                                            <span class="old-price">4 999</span>
+                                            <span class="curr-price">2 599</span>
+                                        </div>
+                                        <div class="card__info-right">
+                                            <div class="location">
+                                                <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.03019 1.77684C1.56287 3.18058 1.38709 5.39908 2.61646 6.99837L6 11.4L9.38354 6.99837C10.6129 5.39908 10.4371 3.18058 8.96982 1.77684C7.32963 0.207728 4.67037 0.207728 3.03019 1.77684ZM6 6.60001C6.99412 6.60001 7.8 5.79412 7.8 4.80001C7.8 3.80589 6.99412 3.00001 6 3.00001C5.00589 3.00001 4.2 3.80589 4.2 4.80001C4.2 5.79412 5.00589 6.60001 6 6.60001Z" fill="#2D3132"/>
+                                                </svg>
+                                                <span class="city">Хмельницький</span>                                                    
+                                            </div>
+                                            <div class="brand">
+                                                <img src="images/avatars/ava-2.png" alt="Sell_For_Men">
+                                                <span class="brand__name">Sell_For_Men</span>                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__image flex-all-center">
+                                    <img src="images/cards/card-4.png" class="card-img-top" alt="Клатч Louis Vuitton Limelight">
+                                    <button type="button" class="card__favorite">
+                                        <svg width="20" height="20" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.53735 5.19604L9.46969 5.26371C7.70072 3.49473 4.83264 3.49473 3.06367 5.2637C1.2947 7.03268 1.29469 9.90075 3.06367 11.6697L6.79699 15.403C8.56597 17.172 11.434 17.172 13.203 15.403L16.9364 11.6697C18.7053 9.90073 18.7053 7.03266 16.9364 5.26368C15.1674 3.49471 12.2993 3.49471 10.5303 5.26368L10.0677 5.72635L9.53735 5.19604ZM14.2637 16.4637L17.997 12.7304C20.3518 10.3756 20.3518 6.55778 17.997 4.20302C15.8118 2.01781 12.3667 1.86047 10 3.73099C7.63335 1.86049 4.18821 2.01785 2.00301 4.20304C-0.35175 6.5578 -0.351753 10.3756 2.00301 12.7304L5.73633 16.4637L5.73635 16.4637C8.09111 18.8185 11.9089 18.8185 14.2637 16.4637L14.2637 16.4637Z" fill="currentColor"/>
+                                        </svg>                                            
+                                    </button>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"><small class="text-muted">LOUIS VUITTON</small></p>
+                                    <a href="#" class="card-title">Клатч Louis Vuitton Limelight</a>
+                                    <div class="card__info flex-all-between">
+                                        <div class="card__info-left">
+                                            <span class="old-price">4 999</span>
+                                            <span class="curr-price">3 499</span>
+                                        </div>
+                                        <div class="card__info-right">
+                                            <div class="location">
+                                                <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.03019 1.77684C1.56287 3.18058 1.38709 5.39908 2.61646 6.99837L6 11.4L9.38354 6.99837C10.6129 5.39908 10.4371 3.18058 8.96982 1.77684C7.32963 0.207728 4.67037 0.207728 3.03019 1.77684ZM6 6.60001C6.99412 6.60001 7.8 5.79412 7.8 4.80001C7.8 3.80589 6.99412 3.00001 6 3.00001C5.00589 3.00001 4.2 3.80589 4.2 4.80001C4.2 5.79412 5.00589 6.60001 6 6.60001Z" fill="#2D3132"/>
+                                                </svg>
+                                                <span class="city">Дніпро</span>                                                    
+                                            </div>
+                                            <div class="brand">
+                                                <img src="images/avatars/ava-3.png" alt="Brandear">
+                                                <span class="brand__name">Brandear</span>                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__image flex-all-center">
+                                    <img src="images/cards/card-5.png" class="card-img-top" alt="Сумка з декором Elena Ghisellini">
+                                    <button type="button" class="card__favorite">
+                                        <svg width="20" height="20" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.53735 5.19604L9.46969 5.26371C7.70072 3.49473 4.83264 3.49473 3.06367 5.2637C1.2947 7.03268 1.29469 9.90075 3.06367 11.6697L6.79699 15.403C8.56597 17.172 11.434 17.172 13.203 15.403L16.9364 11.6697C18.7053 9.90073 18.7053 7.03266 16.9364 5.26368C15.1674 3.49471 12.2993 3.49471 10.5303 5.26368L10.0677 5.72635L9.53735 5.19604ZM14.2637 16.4637L17.997 12.7304C20.3518 10.3756 20.3518 6.55778 17.997 4.20302C15.8118 2.01781 12.3667 1.86047 10 3.73099C7.63335 1.86049 4.18821 2.01785 2.00301 4.20304C-0.35175 6.5578 -0.351753 10.3756 2.00301 12.7304L5.73633 16.4637L5.73635 16.4637C8.09111 18.8185 11.9089 18.8185 14.2637 16.4637L14.2637 16.4637Z" fill="currentColor"/>
+                                        </svg>                                            
+                                    </button>
+                                    <span class="card__label card__label--organic">
+                                        organic
+                                    </span>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"><small class="text-muted">ELENA GHISELINI</small></p>
+                                    <a href="#" class="card-title">Сумка з декором Elena Ghisellini</a>
+                                    <div class="card__info flex-all-between">
+                                        <div class="card__info-left">
+                                            <span class="old-price">1 999</span>
+                                            <span class="curr-price">1 599 </span>
+                                        </div>
+                                        <div class="card__info-right">
+                                            <div class="location">
+                                                <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.03019 1.77684C1.56287 3.18058 1.38709 5.39908 2.61646 6.99837L6 11.4L9.38354 6.99837C10.6129 5.39908 10.4371 3.18058 8.96982 1.77684C7.32963 0.207728 4.67037 0.207728 3.03019 1.77684ZM6 6.60001C6.99412 6.60001 7.8 5.79412 7.8 4.80001C7.8 3.80589 6.99412 3.00001 6 3.00001C5.00589 3.00001 4.2 3.80589 4.2 4.80001C4.2 5.79412 5.00589 6.60001 6 6.60001Z" fill="#2D3132"/>
+                                                </svg>
+                                                <span class="city">Дніпро</span>                                                    
+                                            </div>
+                                            <div class="brand">
+                                                <img src="images/avatars/ava-3.png" alt="Brandear">
+                                                <span class="brand__name">Brandear</span>                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__image flex-all-center">
+                                    <img src="images/cards/card-6.png" class="card-img-top" alt="Бомбер Acne на блискавці">
+                                    <button type="button" class="card__favorite">
+                                        <svg width="20" height="20" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.53735 5.19604L9.46969 5.26371C7.70072 3.49473 4.83264 3.49473 3.06367 5.2637C1.2947 7.03268 1.29469 9.90075 3.06367 11.6697L6.79699 15.403C8.56597 17.172 11.434 17.172 13.203 15.403L16.9364 11.6697C18.7053 9.90073 18.7053 7.03266 16.9364 5.26368C15.1674 3.49471 12.2993 3.49471 10.5303 5.26368L10.0677 5.72635L9.53735 5.19604ZM14.2637 16.4637L17.997 12.7304C20.3518 10.3756 20.3518 6.55778 17.997 4.20302C15.8118 2.01781 12.3667 1.86047 10 3.73099C7.63335 1.86049 4.18821 2.01785 2.00301 4.20304C-0.35175 6.5578 -0.351753 10.3756 2.00301 12.7304L5.73633 16.4637L5.73635 16.4637C8.09111 18.8185 11.9089 18.8185 14.2637 16.4637L14.2637 16.4637Z" fill="currentColor"/>
+                                        </svg>                                            
+                                    </button>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"><small class="text-muted">ACNE</small></p>
+                                    <a href="#" class="card-title">Бомбер Acne на блискавці</a>
+                                    <div class="card__info flex-all-between">
+                                        <div class="card__info-left">
+                                            <span class="old-price">5 999</span>
+                                            <span class="curr-price">4 199 </span>
+                                        </div>
+                                        <div class="card__info-right">
+                                            <div class="location">
+                                                <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.03019 1.77684C1.56287 3.18058 1.38709 5.39908 2.61646 6.99837L6 11.4L9.38354 6.99837C10.6129 5.39908 10.4371 3.18058 8.96982 1.77684C7.32963 0.207728 4.67037 0.207728 3.03019 1.77684ZM6 6.60001C6.99412 6.60001 7.8 5.79412 7.8 4.80001C7.8 3.80589 6.99412 3.00001 6 3.00001C5.00589 3.00001 4.2 3.80589 4.2 4.80001C4.2 5.79412 5.00589 6.60001 6 6.60001Z" fill="#2D3132"/>
+                                                </svg>
+                                                <span class="city">Київ</span>                                                    
+                                            </div>
+                                            <div class="brand">
+                                                <img src="images/avatars/ava-4.png" alt="Alexalex">
+                                                <span class="brand__name">Alexalex</span>                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__image flex-all-center">
+                                    <img src="images/cards/card-7.png" class="card-img-top" alt="Довга сукня Gucci">
+                                    <button type="button" class="card__favorite">
+                                        <svg width="20" height="20" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.53735 5.19604L9.46969 5.26371C7.70072 3.49473 4.83264 3.49473 3.06367 5.2637C1.2947 7.03268 1.29469 9.90075 3.06367 11.6697L6.79699 15.403C8.56597 17.172 11.434 17.172 13.203 15.403L16.9364 11.6697C18.7053 9.90073 18.7053 7.03266 16.9364 5.26368C15.1674 3.49471 12.2993 3.49471 10.5303 5.26368L10.0677 5.72635L9.53735 5.19604ZM14.2637 16.4637L17.997 12.7304C20.3518 10.3756 20.3518 6.55778 17.997 4.20302C15.8118 2.01781 12.3667 1.86047 10 3.73099C7.63335 1.86049 4.18821 2.01785 2.00301 4.20304C-0.35175 6.5578 -0.351753 10.3756 2.00301 12.7304L5.73633 16.4637L5.73635 16.4637C8.09111 18.8185 11.9089 18.8185 14.2637 16.4637L14.2637 16.4637Z" fill="currentColor"/>
+                                        </svg>                                            
+                                    </button>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"><small class="text-muted">GUCCI</small></p>
+                                    <a href="#" class="card-title">Довга сукня Gucci</a>
+                                    <div class="card__info flex-all-between">
+                                        <div class="card__info-left">
+                                            <span class="old-price">11 999</span>
+                                            <span class="curr-price">8 599</span>
+                                        </div>
+                                        <div class="card__info-right">
+                                            <div class="location">
+                                                <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.03019 1.77684C1.56287 3.18058 1.38709 5.39908 2.61646 6.99837L6 11.4L9.38354 6.99837C10.6129 5.39908 10.4371 3.18058 8.96982 1.77684C7.32963 0.207728 4.67037 0.207728 3.03019 1.77684ZM6 6.60001C6.99412 6.60001 7.8 5.79412 7.8 4.80001C7.8 3.80589 6.99412 3.00001 6 3.00001C5.00589 3.00001 4.2 3.80589 4.2 4.80001C4.2 5.79412 5.00589 6.60001 6 6.60001Z" fill="#2D3132"/>
+                                                </svg>
+                                                <span class="city">Рівне</span>                                                    
+                                            </div>
+                                            <div class="brand">
+                                                <img src="images/avatars/ava-5.png" alt="SellBuy">
+                                                <span class="brand__name">SellBuy</span>                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__image flex-all-center">
+                                    <img src="images/cards/card-8.png" class="card-img-top" alt="Помаранчевий бомбер Woolrich">
+                                    <button type="button" class="card__favorite">
+                                        <svg width="20" height="20" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.53735 5.19604L9.46969 5.26371C7.70072 3.49473 4.83264 3.49473 3.06367 5.2637C1.2947 7.03268 1.29469 9.90075 3.06367 11.6697L6.79699 15.403C8.56597 17.172 11.434 17.172 13.203 15.403L16.9364 11.6697C18.7053 9.90073 18.7053 7.03266 16.9364 5.26368C15.1674 3.49471 12.2993 3.49471 10.5303 5.26368L10.0677 5.72635L9.53735 5.19604ZM14.2637 16.4637L17.997 12.7304C20.3518 10.3756 20.3518 6.55778 17.997 4.20302C15.8118 2.01781 12.3667 1.86047 10 3.73099C7.63335 1.86049 4.18821 2.01785 2.00301 4.20304C-0.35175 6.5578 -0.351753 10.3756 2.00301 12.7304L5.73633 16.4637L5.73635 16.4637C8.09111 18.8185 11.9089 18.8185 14.2637 16.4637L14.2637 16.4637Z" fill="currentColor"/>
+                                        </svg>                                            
+                                    </button>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"><small class="text-muted">CHANEL</small></p>
+                                    <a href="#" class="card-title">Помаранчевий бомбер Woolrich</a>
+                                    <div class="card__info flex-all-between">
+                                        <div class="card__info-left">
+                                            <span class="old-price">1 999</span>
+                                            <span class="curr-price">1 599</span>
+                                        </div>
+                                        <div class="card__info-right">
+                                            <div class="location">
+                                                <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.03019 1.77684C1.56287 3.18058 1.38709 5.39908 2.61646 6.99837L6 11.4L9.38354 6.99837C10.6129 5.39908 10.4371 3.18058 8.96982 1.77684C7.32963 0.207728 4.67037 0.207728 3.03019 1.77684ZM6 6.60001C6.99412 6.60001 7.8 5.79412 7.8 4.80001C7.8 3.80589 6.99412 3.00001 6 3.00001C5.00589 3.00001 4.2 3.80589 4.2 4.80001C4.2 5.79412 5.00589 6.60001 6 6.60001Z" fill="#2D3132"/>
+                                                </svg>
+                                                <span class="city">Кропивницький</span>                                                    
+                                            </div>
+                                            <div class="brand">
+                                                <img src="images/avatars/ava-6.png" alt="Deeva_Sofia">
+                                                <span class="brand__name">Deeva_Sofia</span>                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__image flex-all-center">
+                                    <img src="images/cards/card-9.png" class="card-img-top" alt="Салатове пальто Hache">
+                                    <button type="button" class="card__favorite">
+                                        <svg width="20" height="20" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.53735 5.19604L9.46969 5.26371C7.70072 3.49473 4.83264 3.49473 3.06367 5.2637C1.2947 7.03268 1.29469 9.90075 3.06367 11.6697L6.79699 15.403C8.56597 17.172 11.434 17.172 13.203 15.403L16.9364 11.6697C18.7053 9.90073 18.7053 7.03266 16.9364 5.26368C15.1674 3.49471 12.2993 3.49471 10.5303 5.26368L10.0677 5.72635L9.53735 5.19604ZM14.2637 16.4637L17.997 12.7304C20.3518 10.3756 20.3518 6.55778 17.997 4.20302C15.8118 2.01781 12.3667 1.86047 10 3.73099C7.63335 1.86049 4.18821 2.01785 2.00301 4.20304C-0.35175 6.5578 -0.351753 10.3756 2.00301 12.7304L5.73633 16.4637L5.73635 16.4637C8.09111 18.8185 11.9089 18.8185 14.2637 16.4637L14.2637 16.4637Z" fill="currentColor"/>
+                                        </svg>                                            
+                                    </button>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"><small class="text-muted">HACHE</small></p>
+                                    <a href="#" class="card-title">Салатове пальто Hache</a>
+                                    <div class="card__info flex-all-between">
+                                        <div class="card__info-left">
+                                            <span class="old-price">5 999</span>
+                                            <span class="curr-price">4 199</span>
+                                        </div>
+                                        <div class="card__info-right">
+                                            <div class="location">
+                                                <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.03019 1.77684C1.56287 3.18058 1.38709 5.39908 2.61646 6.99837L6 11.4L9.38354 6.99837C10.6129 5.39908 10.4371 3.18058 8.96982 1.77684C7.32963 0.207728 4.67037 0.207728 3.03019 1.77684ZM6 6.60001C6.99412 6.60001 7.8 5.79412 7.8 4.80001C7.8 3.80589 6.99412 3.00001 6 3.00001C5.00589 3.00001 4.2 3.80589 4.2 4.80001C4.2 5.79412 5.00589 6.60001 6 6.60001Z" fill="#2D3132"/>
+                                                </svg>
+                                                <span class="city">Київ</span>                                                    
+                                            </div>
+                                            <div class="brand">
+                                                <img src="images/avatars/ava-1.png" alt="LoveBrand">
+                                                <span class="brand__name">LoveBrand</span>                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav aria-label="...">
+                            <ul class="pagination">
+                                <li class="page-item disabled">
+                                    <span class="page-link">Попередня</span>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active" aria-current="page">
+                                    <span class="page-link">2</span>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                <li class="page-item"><a class="page-link" href="#">7</a></li>
+                                <li class="page-item"><a class="page-link" href="#">8</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Наступна</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="#">Довідка для покупців</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Отримати підтримку</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Як купувати</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Як залишити корисний відгук</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Програма Захисту Покупців</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Рекомендації з безпечних покупок</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6">
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="#">Довідка для продавців</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Як почати продавати</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Тарифи</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Угода користувача</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Політика конфіденційності</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Правила користування порталом</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Бонусна програма</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6">
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="#">Про нас</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Довідка та FAQ</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Захист легальності контенту</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Адміністрація</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Вакансії</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="mob-app">
+                        <span>Мобільний додаток</span>
+                        <a href="#" class="mob-app__link" target="_blank">
+                            <img src="images/icons/google-play.svg" alt="icon: google-play">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bot">
+                <strong class="copyright">© 2022 Monvalise</strong>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
